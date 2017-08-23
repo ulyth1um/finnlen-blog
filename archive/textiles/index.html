@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="unit size6of12 archive-posts">  
+    <h1>Textiles posts</h1>
+    
+      {% for post in site.categories.textiles %}
+
+      <div class="archive-post">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="web-alternate-small">{{ post.date | date: '%B' }}, {{ post.date | date: '%Y' }} &bull; {{ post.category }}</span>
+        <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+      </div>
+
+    {% endfor %} 
+  </div>
+  
+  <div class="unit size6of12 category-links">  
+    <h2>Post Categories</h2>
+    
+    {% for category in site.categories %}
+      <a href="{{ category | first | downcase | prepend: site.baseurl }}">{{ category | first }}</a>
+      {% unless forloop.last %}
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+
+  <script src="https://use.typekit.net/qhh0vms.js"></script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+  <link rel="stylesheet" href="{{ "/css/vendor/mld-framework.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/site.css" | prepend: site.baseurl }}">
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="shortcut icon" href="{{ "/images/assets/favicon.ico" | prepend: site.baseurl }}" />
+
+</head>
+
+<body>
+  
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include sustainable-hero.html %}
+  
+  {% include footer.html %}
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="{{ "/js/jquery.nav.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/imagesLoaded.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/masonry.js" | prepend: site.baseurl }}"></script>
+  
+  <script>
+    var $grid = $('.grid').imagesLoaded( function() {
+      $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-sizer',
+        percentPosition: true
+      });
+    });
+    
+  </script>
+
+</body>
+</html>

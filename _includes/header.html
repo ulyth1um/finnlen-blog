@@ -1,0 +1,57 @@
+<div id="account-bar">
+  <span>Log in</span><span>Create account</span>
+</div>
+
+<div id="search-bar">
+  <input class="search-input" type="text" placeholder="Find Products..."><button class="search-button">Search</button>
+</div>
+
+<div id="header">
+  
+  <div class="header-logo">
+    <a href="https://finnlen.com">
+      <img class="logo" src="{{ "/img/logo.svg" | prepend: site.baseurl }}" alt="Finnlen Textiles">
+    </a>
+  </div>
+  
+  <div>
+  <nav>
+    <ul class="nav">
+			<li><a href="#">Products</a>
+				<ul>
+						<li><a href="#">Fabric</a></li>
+						<li><a href="#">Thread</a></li>
+				</ul>
+			 </li>
+			 <li><a href="#">Blog</a></li>
+			 <li><a href="#">About</a>
+					<ul>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Shipping &amp; Returns</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+					</ul>
+			 </li>
+			 <li><a href="support.html">Sustainability</a>
+					<ul>
+					 <li><a href="#">Impact Report</a></li>
+				 </ul>
+			</li>
+			<li><a href="#">Contact</a></li>
+			</ul>
+  </nav>
+  </div>
+  
+  <div class="header-icons">
+      <a id="search-icon" href="https://finnlen.com/search">
+        <img class="icon-search" src="{{ "/img/search.svg" | prepend: site.baseurl }}" alt="Search">
+      </a>
+      <a id="user-icon" href="https://finnlen.com/profile">
+        <img class="icon-profile" src="{{ "/img/profile.svg" | prepend: site.baseurl }}" alt="Profile">
+      </a>
+      <a href="https://finnlen.com/cart">
+        <img class="icon-cart" src="{{ "/img/cart.svg" | prepend: site.baseurl }}" alt="Shopping Cart">
+      </a>
+      <a class="toggleMenu" href="#" style="display: none; ">Menu</a>
+  </div>
+
+</div>

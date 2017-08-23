@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "THOUGH MANY OF THE WHALES, AS HAS BEEN SAID, WERE IN VIOLENT MOTION"
+date:   2017-07-11 14:44:34 -0400
+category: textiles
+snippet: "But not a bit daunted, Queequeg steered us manfully; now sheering off from this monster directly across our route in advance; now edging away from that, whose colossal flukes were suspended overhead, while all the time, Starbuck stood up in the bows, lance in hand, pricking out of our way whatever whales he could reach by short darts, for there was no time to make long ones. Nor were the oarsmen quite idle, though their wonted duty was now altogether dispensed with. They chiefly attended to the shouting part of the business. “Out of the way, Commodore!” cried one, to a great dromedary that of a sudden rose bodily to the surface, and for an instant threatened to swamp us. “Hard down with your tail, there!” cried a second to another, which, close to our gunwale, seemed calmly cooling himself with his own fan-like extremity."
+---
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
