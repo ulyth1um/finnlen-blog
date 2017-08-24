@@ -9,13 +9,13 @@ featureimgalt: "Placeholder image"
 snippet: "If I say, that in any creature breathing is only a function indispensable to vitality, inasmuch as it withdraws from the air a certain element, which being subsequently brought into contact with the blood imparts to the blood its vivifying principle, I do not think I shall err; though I may possibly use some superfluous scientific words. Assume it, and it follows that if all the blood in a man could be aerated with one breath, he might then seal up his nostrils and not fetch another for a considerable time. That is to say, he would then live without breathing."
 ---
 
-<div>
+<!-- <div>
   <figure class="post-header-figure">
   <img src="/img/image-mock-1200x600.png" alt="1200x600">
     <figcaption>Reshaping The Countryside:
       Cotton And The Rural Landscape</figcaption>
   </figure>
-</div>
+</div> -->
 
 Like all <a href="#">sea-going ship carpenters</a>, and more especially those belonging to whaling vessels, he was, to a certain off-handed, practical extent, alike experienced in numerous trades and <a href="#">callings collateral to his own</a>; the carpenter’s pursuit being the ancient and outbranching trunk of all those numerous handicrafts which more or less have to do with wood as an auxiliary material.
 

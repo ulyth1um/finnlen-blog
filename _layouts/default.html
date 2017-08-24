@@ -30,19 +30,23 @@
   
   {% include footer.html %}
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="{{ "/js/jquery.nav.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/imagesLoaded.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/masonry.js" | prepend: site.baseurl }}"></script>
   
   <script>
-    var $grid = $('.grid').imagesLoaded( function() {
-      $('.grid').masonry({
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true
-      });
-    });
+    
+		window.onload = function() {
+				var $grid = $('.grid').imagesLoaded( function() {
+					
+					$('.grid').masonry({
+						itemSelector: '.grid-item',
+						columnWidth: '.grid-sizer',
+						percentPosition: true
+					});
+				});
+		}
     
   </script>
 
