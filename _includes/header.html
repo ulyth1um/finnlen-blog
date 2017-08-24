@@ -1,9 +1,32 @@
 <div id="account-bar">
-  <span>Log in</span><span>Create account</span>
+  <ul id="account-list">
+  <li>
+    <a href="https://finnlen.com/account/login">Login</a>
+    &bull;
+  </li>
+  <li>
+    <a href="https://finnlen.com/account/register">Create Account</a>
+  </li>
+  </ul>
 </div>
 
 <div id="search-bar">
-  <input class="search-input" type="text" placeholder="Find Products..."><button class="search-button">Search</button>
+  <!-- <input class="search-input" type="text" placeholder="Find Products..."><button class="search-button">Search</button> -->
+
+  <form action="https://finnlen.com/search" method="get" role="search">
+    <label for="Search" class="label-hidden" style="display:none;">
+      Search our store
+    </label>
+    <input type="search"
+           name="q"
+           id="Search"
+           value=""
+           placeholder="Find Products..."
+           class="search-input">
+    <button class="search-button" type="submit">
+      Search
+    </button>
+  </form>
 </div>
 
 <div id="header">
