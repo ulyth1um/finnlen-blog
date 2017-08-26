@@ -18,8 +18,12 @@
 
   <link rel="shortcut icon" href="{{ "/img/favicon.png" | prepend: site.baseurl }}" />
 	<meta property="og:title" content="{{ page.title }}">
-	<meta property="og:image" content="{{ "/img/og-image.png" | prepend: site.baseurl }}">
-
+	
+	{% if page.featureimg %}
+		<meta property="og:image" content="{{ page.featureimg | prepend: site.baseurl }}">
+	{% else %}
+		<meta property="og:image" content="{{ "/img/og-image.png" | prepend: site.baseurl }}">
+	{% endif %}
 
 </head>
 
